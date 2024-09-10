@@ -1,0 +1,95 @@
+/* Nesse css, resolvi mudar um pouco e está quase igual ao Canva, 
+pois eu mudei a posição da logo  */
+body {
+    background-color: #38b6ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    width: 60%; 
+    height: 90%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 20px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+header h1 {
+    color: #000000;
+    font-size: 3em;
+    margin: 0;
+}
+
+header h2 {
+    color: #2E2E2E;
+    font-size: 1.5em;
+}
+
+.content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 30px;
+}
+
+.image-container,
+.logo-container {
+    margin: 10px;
+}
+
+.logo-container img {
+    border-radius: 50%;
+    width: 120px; 
+    height: auto;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; 
+}
+
+.text-box p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0;
+}
+
+footer {
+    margin-top: 30px;
+    color: black;
+    font-size: 1.1em;
+    padding: 0 20px; 
+}
+
+footer {
+    margin-top: 30px;
+    color: black;
+    font-size: 1.1em;
+    padding: 0 20px; 
+}
+
